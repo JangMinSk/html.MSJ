@@ -1,0 +1,152 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main_header{
+    text-align: center;
+    font-family: 'Fruktur', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+.ser{
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+.ser input::placeholder{
+    color: red;
+    font-size: 1.2rem;
+}
+.ser input{
+    border-radius:50px; 
+    width: 300px; height: 30px; 
+    font-size: 1vw;
+}
+.ser button{
+    height: 30px;
+    
+    background-color: cornflowerblue;
+    color: snow;
+}
+.Photo{
+    position: relative;
+    flex-direction: row;
+    width: 900px;
+	margin: 20px auto;
+}
+.photobox:hover {
+    opacity:0.9;
+    transform: scale(1.1);
+    transition: transform.5s;
+   }
+.photobox:hover .sos {
+    visibility:visible;
+  }    
+
+.photobox{ 
+    width: 40%;
+    height: 205px;
+    margin: 2px;
+    overflow: hidden;
+    text-align: center;
+}
+.sos{
+    top: 0px;
+    width: 100%;
+    position:absolute;
+    visibility:hidden;
+
+}
+.actor{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+	vertical-align: middle;
+    
+}
+.mom{
+    width: 232px;
+    height: 200px;
+}
+.idoll{
+    display: inline-flex;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    flex-direction: row;
+	vertical-align: middle;
+}
+.twitch{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+	vertical-align: middle;
+}
+@media screen and (max-width:380px){
+    .ser input::placeholder{
+        font-size: 0.1rem;
+        color: blueviolet;
+    } 
+    body{
+        width: 90%;
+    }
+    .photobox{
+        width: 90%;
+    }
+    .actor{
+        width: 90%;
+    }
+    .idoll{
+        width: 90%;
+    }
+    .twitch{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 0px) {
+    body{
+        width: 90%;
+    }
+    .photobox{
+        width: 90%;
+    }
+    .actor{
+        width: 90%;
+    }
+    .idoll{
+        width: 90%;
+    }
+    .twitch{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    body{
+        width: 90%;
+    }
+    .photobox{
+        width: 90%;
+    }
+    .actor{
+        width: 90%;
+    }
+    .idoll{
+        width: 90%;
+    }
+    .twitch{
+        width: 90%;
+    }
+}
+

@@ -1,0 +1,44 @@
+.container{
+    /* display: flex;
+    flex-direction: row; 
+    justify-content: space-around;*/
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    background: skyblue;
+    height: auto;
+    width: 100%;
+    
+    
+}
+.item{
+    background: tomato;
+    margin: 5px;
+    flex: 1 1 40%;
+/*    
+}
+.item:nth-child(1){
+    font-size: 1rem;
+}
+.item:nth-child(2){
+    font-size: 0.7rem;
+}
+.item:nth-child(2){
+    font-size: 1.3rem;
+}
+.parent{
+    background: tan;
+    margin-top: 50px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} 
+ .child{
+    width: 30%;
+    height: 100px;
+    background: pink;
+    margin: 10px;
+    
+} */
